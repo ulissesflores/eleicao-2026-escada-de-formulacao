@@ -3,10 +3,11 @@
 Formato [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/); versionamento
 [SemVer](https://semver.org/lang/pt-BR/).
 
-## [1.0.0] - não lançado
+## [1.0.0] - 2026-10-02
 
-Pré-lançamento `v1.0.0-rc1` (2026-10-02): mesmo conteúdo, publicado só para o Zenodo cunhar
-o DOI, que a `1.0.0` traz embutido.
+DOI de conceito: [10.5281/zenodo.23111438](https://doi.org/10.5281/zenodo.23111438). O pré-lançamento
+`v1.0.0-rc1`, de mesmo conteúdo, existiu só para o Zenodo cunhar o DOI que esta versão traz
+embutido.
 
 Primeira versão pública, que acompanha o artigo
 [ulissesflores.com/artigos/ia-eleicao-2026](https://ulissesflores.com/artigos/ia-eleicao-2026).

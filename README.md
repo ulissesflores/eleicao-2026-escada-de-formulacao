@@ -8,6 +8,7 @@
 10 aos candidatos e os ordenou. Este repositório reorganiza oito medições publicadas pela forma
 do pedido — e deixa cada linha conferível contra a página do relatório de onde ela saiu.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23111438.svg)](https://doi.org/10.5281/zenodo.23111438)
 [![Licença do código: Apache 2.0](https://img.shields.io/badge/c%C3%B3digo-Apache--2.0-blue.svg)](LICENSES/Apache-2.0.txt)
 [![Licença dos dados: CC BY 4.0](https://img.shields.io/badge/r%C3%A9gua%20e%20tabelas-CC--BY--4.0-lightgrey.svg)](LICENSES/CC-BY-4.0.txt)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
@@ -229,15 +230,17 @@ discordar de uma linha, discorde de uma regra escrita — é para isso que a ré
   title   = {Escada de formula{\c{c}}{\~a}o: r{\'e}gua, tabela codificada e gate de oito
              medi{\c{c}}{\~o}es sobre {IA} e voto no {Brasil} (2026)},
   year    = {2026},
-  version = {1.0.0-rc1},
-  url     = {https://github.com/ulissesflores/eleicao-2026-escada-de-formulacao}
+  version = {1.0.0},
+  doi     = {10.5281/zenodo.23111438},
+  url     = {https://doi.org/10.5281/zenodo.23111438}
 }
 ```
 
-O DOI do Zenodo é cunhado na primeira release do GitHub. Quando existir, cite o **DOI de
-conceito** — que sempre resolve para a versão mais recente —; cada release ganha também um
-DOI de versão, para quando for preciso apontar uma versão específica. Metadados legíveis por
-máquina: [`CITATION.cff`](CITATION.cff) e [`codemeta.json`](codemeta.json).
+Cite o **DOI de conceito**, [10.5281/zenodo.23111438](https://doi.org/10.5281/zenodo.23111438), que sempre
+resolve para a versão mais recente no Zenodo. Cada release tem também um DOI de versão, listado
+na [página do registro](https://doi.org/10.5281/zenodo.23111438), para quando for preciso apontar
+uma versão específica. Metadados legíveis por máquina: [`CITATION.cff`](CITATION.cff) e
+[`codemeta.json`](codemeta.json).
 
 ## Licença
 

@@ -1,6 +1,6 @@
 [project]
 name = "eleicao-2026-escada-de-formulacao"
-version = "1.0.0rc1"
+version = "1.0.0"
 description = "Pacote de reprodução do artigo 'Os termos de uso impedem até medir se a IA cumpre a lei eleitoral': régua, tabela codificada de oito medições sobre IA e voto no Brasil (2026), gate, testes e selo SHA-256."
 readme = "README.md"
 requires-python = ">=3.11"
