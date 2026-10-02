@@ -5,6 +5,9 @@ Formato [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/); versionamen
 
 ## [1.0.0] - não lançado
 
+Pré-lançamento `v1.0.0-rc1` (2026-10-02): mesmo conteúdo, publicado só para o Zenodo cunhar
+o DOI, que a `1.0.0` traz embutido.
+
 Primeira versão pública, que acompanha o artigo
 [ulissesflores.com/artigos/ia-eleicao-2026](https://ulissesflores.com/artigos/ia-eleicao-2026).
 

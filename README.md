@@ -229,7 +229,7 @@ discordar de uma linha, discorde de uma regra escrita — é para isso que a ré
   title   = {Escada de formula{\c{c}}{\~a}o: r{\'e}gua, tabela codificada e gate de oito
              medi{\c{c}}{\~o}es sobre {IA} e voto no {Brasil} (2026)},
   year    = {2026},
-  version = {1.0.0},
+  version = {1.0.0-rc1},
   url     = {https://github.com/ulissesflores/eleicao-2026-escada-de-formulacao}
 }
 ```
