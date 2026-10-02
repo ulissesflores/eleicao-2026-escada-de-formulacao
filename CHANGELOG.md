@@ -21,3 +21,9 @@ Primeira versão pública, que acompanha o artigo
 - `run_all.py`: entry-point único (gate -> testes -> selo).
 - CI em Python 3.11 e 3.12 (selo, replicação, lint, cobertura de docstring).
 - `CITATION.cff`, `codemeta.json`, `.zenodo.json`; licença dual Apache-2.0 + CC BY 4.0.
+
+### Alterado
+
+- 2026-10-02: o artigo trocou de título antes de ir ao ar — agora *Os termos de uso impedem até
+  medir se a IA cumpre a lei eleitoral*. README, `CITATION.cff`, `codemeta.json`, `.zenodo.json`,
+  `pyproject.toml` e a docstring dos testes citam o título novo; dados, régua e testes não mudaram.

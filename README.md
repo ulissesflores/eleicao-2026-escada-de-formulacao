@@ -30,7 +30,7 @@ do pedido — e deixa cada linha conferível contra a página do relatório de o
 > critério largo, em **86%** das respostas sobre governadores e em 86% das sobre a presidência.
 
 Este é o pacote de reprodução do artigo
-**[O ChatGPT recusa "ranking" e entrega "nota": oito medições e a regra do TSE](https://ulissesflores.com/artigos/ia-eleicao-2026)**
+**[Os termos de uso impedem até medir se a IA cumpre a lei eleitoral](https://ulissesflores.com/artigos/ia-eleicao-2026)**
 (Carlos Ulisses Flores, 2026). Todo número do artigo que sai da tabela é recalculado pelos
 testes a partir dos CSVs deste repositório.
 
@@ -96,7 +96,7 @@ APROVADO — enums, derivação de juizo, datas, ids, instrumentos; ÂNCORAS NÃ
 30 passed in 0.09s
 
 === 3/3 proveniencia ===
-proveniencia verificada: chain_hash 0f4e1a945d7dd0c72a49abd6d28db0d42b8dcb0341eff98a85a26b63307b8b93
+proveniencia verificada: chain_hash fc485b271d810acc3a5b871070800b33a93fca8c214735c3c7de3df38f671725
 
 run_all: OK [SEM ancoras]
 ```
@@ -169,7 +169,7 @@ Um único `chain_hash` SHA-256 encadeado sela a régua, os três CSVs, o gate, o
 `run_all.py`:
 
 ```text
-0f4e1a945d7dd0c72a49abd6d28db0d42b8dcb0341eff98a85a26b63307b8b93
+fc485b271d810acc3a5b871070800b33a93fca8c214735c3c7de3df38f671725
 ```
 
 ```bash

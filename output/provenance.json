@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256-chain",
-  "chain_hash": "0f4e1a945d7dd0c72a49abd6d28db0d42b8dcb0341eff98a85a26b63307b8b93",
+  "chain_hash": "fc485b271d810acc3a5b871070800b33a93fca8c214735c3c7de3df38f671725",
   "files": [
     {
       "path": "REGUA.md",
@@ -28,7 +28,7 @@
     },
     {
       "path": "tests/test_numeros_publicados.py",
-      "sha256": "43b5cf912cc82002a4baa5786872328c053bb455243fa8195129611f5af3d14c"
+      "sha256": "8a640d9483cb8f17003cda8de25b191e7aeaf953e5ae8a403875211a2ceaab4f"
     }
   ]
 }

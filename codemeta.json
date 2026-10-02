@@ -2,7 +2,7 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "Escada de formulação: régua, tabela codificada e gate de oito medições sobre IA e voto no Brasil (2026)",
-  "description": "Pacote de reprodução do artigo 'O ChatGPT recusa \"ranking\" e entrega \"nota\": oito medições e a regra do TSE'. Régua de codificação, 8 fontes, 55 enunciados e 162 linhas codificadas com âncora verbatim na fonte, gate de validação, testes que travam cada número do artigo derivado da tabela e selo de proveniência SHA-256. Nenhuma medição própria. / Reproduction package for a Portuguese-language article that recodes eight published Brazilian audits of consumer AI assistants (March-August 2026) by how the request is phrased.",
+  "description": "Pacote de reprodução do artigo 'Os termos de uso impedem até medir se a IA cumpre a lei eleitoral'. Régua de codificação, 8 fontes, 55 enunciados e 162 linhas codificadas com âncora verbatim na fonte, gate de validação, testes que travam cada número do artigo derivado da tabela e selo de proveniência SHA-256. Nenhuma medição própria. / Reproduction package for a Portuguese-language article that recodes eight published Brazilian audits of consumer AI assistants (March-August 2026) by how the request is phrased.",
   "version": "1.0.0",
   "dateCreated": "2026-10-02",
   "license": [

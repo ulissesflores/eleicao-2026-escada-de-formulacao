@@ -1,7 +1,7 @@
 """Trava os números do artigo contra os CSVs de data/ (fonte única).
 
 Cada teste recalcula, a partir de `data/*.csv`, um número que o artigo
-"O ChatGPT recusa 'ranking' e entrega 'nota': oito medições e a regra do TSE" publica, e cita
+"Os termos de uso impedem até medir se a IA cumpre a lei eleitoral" publica, e cita
 a seção do artigo onde ele aparece. Números que vêm só do texto das fontes (médias publicadas
 pelo ITS Rio, datas da Resolução, contagens que o relatório faz em prosa) não derivam da tabela
 e ficam fora daqui — o artigo os atribui à fonte.
