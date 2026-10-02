@@ -1,0 +1,61 @@
+[project]
+name = "eleicao-2026-escada-de-formulacao"
+version = "1.0.0"
+description = "Pacote de reprodução do artigo 'O ChatGPT recusa ranking e entrega nota': régua, tabela codificada de oito medições sobre IA e voto no Brasil (2026), gate, testes e selo SHA-256."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Carlos Ulisses Flores" }]
+keywords = [
+    "eleicoes-2026",
+    "elections",
+    "brazil",
+    "tse",
+    "llm",
+    "ai-assistants",
+    "content-coding",
+    "reproducibility",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/ulissesflores/eleicao-2026-escada-de-formulacao"
+Article = "https://ulissesflores.com/artigos/ia-eleicao-2026"
+Repository = "https://github.com/ulissesflores/eleicao-2026-escada-de-formulacao"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+# data/checar-tabela.py é cópia byte a byte do gate que produziu a tabela do artigo e está no
+# selo SHA-256: reformatá-lo quebraria a identidade com o arquivo citado. Fica fora do lint.
+extend-exclude = ["data/checar-tabela.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "D"]
+# D401 (modo imperativo) é heurística de inglês; as docstrings aqui são em português.
+ignore = ["D203", "D213", "D401"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D100", "D103"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.interrogate]
+fail-under = 100
+exclude = ["tests", "data"]
+ignore-init-module = true
+verbose = 1

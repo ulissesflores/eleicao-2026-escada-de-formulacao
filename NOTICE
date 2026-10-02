@@ -1,0 +1,23 @@
+Escada de formulação — régua, tabela codificada e gate de oito medições sobre IA e voto
+no Brasil (2026)
+Copyright 2026 Carlos Ulisses Flores
+
+Licenças:
+- Código (run_all.py, make_provenance.py, data/checar-tabela.py, tests/): Apache-2.0
+  (LICENSES/Apache-2.0.txt; cópia também em LICENSE).
+- Régua e tabelas (REGUA.md, data/fontes.csv, data/instrumentos.csv,
+  data/tabela-codificada.csv) e documentação (README.md, REPRODUCIBILITY.md, ROADMAP.md,
+  CHANGELOG.md):
+  CC BY 4.0 (LICENSES/CC-BY-4.0.txt).
+
+Material de terceiros. As tabelas codificam, a partir de relatórios publicados, o enunciado
+dos prompts e a saída observada de cada sistema. Os relatórios de origem (ITS Rio, rodadas 1 a
+5, a 4ª e a 5ª em parceria com o MPF; Observatório IA nas Eleições — Data Privacy Brasil e
+Aláfia Lab; Ekō; JOTA) são de seus autores e NÃO são redistribuídos aqui: só trechos curtos
+de âncora, valores percentuais e o URL de cada fonte (data/fontes.csv). Os enunciados de
+prompt em data/instrumentos.csv são reproduzidos como citação, verbatim quando a fonte os
+publicou (dois do JOTA são parciais ou descritos, e a coluna enunciado diz isso), para permitir
+a reprodução; continuam atribuídos às equipes que os publicaram e não são afirmações do autor.
+
+As cópias em texto das fontes, necessárias para conferir as âncoras, ficam fora do
+repositório (pasta fontes/, no .gitignore); REPRODUCIBILITY.md ensina a recriá-las.

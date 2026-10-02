@@ -1,0 +1,2 @@
+# Só os testes precisam de pacote externo; o gate, o selo e run_all.py usam a stdlib.
+pytest>=8

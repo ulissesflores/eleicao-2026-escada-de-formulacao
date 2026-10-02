@@ -1,0 +1,120 @@
+cff-version: 1.2.0
+message: "Se você usar este repositório, cite-o como abaixo. / If you use this repository, please cite it as below."
+title: "Escada de formulação: régua, tabela codificada e gate de oito medições sobre IA e voto no Brasil (2026)"
+abstract: >-
+  Pacote de reprodução do artigo "O ChatGPT recusa 'ranking' e entrega 'nota': oito
+  medições e a regra do TSE" (Carlos Ulisses Flores, 2026). O artigo relê oito ondas de
+  coleta publicadas entre março e agosto de 2026 por quatro equipes independentes (ITS Rio
+  em cinco rodadas, a 4ª e a 5ª com o MPF; Observatório IA nas Eleições; Ekō; JOTA) sobre o
+  que assistentes de IA de consumo respondem quando o eleitor pede juízo sobre candidatos, e
+  as reorganiza pelo eixo da forma do pedido (degraus R0 a R4) diante do art. 28, § 1º-C da
+  Resolução TSE 23.610/2019, inserido pela Resolução 23.755/2026. O repositório traz a régua
+  de codificação escrita antes da tabela, 8 fontes, 55 enunciados e 162 linhas codificadas,
+  cada uma com arquivo, linha e âncora verbatim na fonte; o gate que reprova enumerado fora
+  da régua, juízo incoerente, âncora ausente e nome de candidato na tabela; testes que travam
+  cada número do artigo derivado da tabela; e um selo de proveniência SHA-256. Nenhuma
+  medição própria: é dado derivado de relatórios publicados, que não são redistribuídos.
+  English: reproduction package for a Portuguese-language article that re-reads eight
+  published Brazilian audits (March-August 2026) of consumer AI assistants asked to judge
+  election candidates, recoded along the axis of how the request is phrased, against the
+  Brazilian Electoral Court rule that bars AI providers from ranking or recommending
+  candidates "even when the user asks". Coding rubric, coded tables, a validating gate,
+  tests that lock every table-derived number in the article, and a SHA-256 provenance seal.
+  No new measurement; third-party reports are not redistributed.
+authors:
+  - family-names: Flores
+    given-names: Carlos Ulisses
+    orcid: "https://orcid.org/0000-0002-6034-7765"
+    website: "https://ulissesflores.com"
+    affiliation: "Codex Hash Research Laboratory"
+type: software
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+identifiers:
+  - type: url
+    value: "https://github.com/ulissesflores/eleicao-2026-escada-de-formulacao"
+    description: "Repositório do código e dos dados / Software source repository"
+  - type: url
+    value: "https://ulissesflores.com/artigos/ia-eleicao-2026"
+    description: "Artigo (português) / Companion article (Portuguese)"
+repository-code: "https://github.com/ulissesflores/eleicao-2026-escada-de-formulacao"
+url: "https://ulissesflores.com/artigos/ia-eleicao-2026"
+version: 1.0.0
+preferred-citation:
+  type: software
+  title: "Escada de formulação: régua, tabela codificada e gate de oito medições sobre IA e voto no Brasil (2026)"
+  authors:
+    - family-names: Flores
+      given-names: Carlos Ulisses
+      orcid: "https://orcid.org/0000-0002-6034-7765"
+  year: 2026
+  version: 1.0.0
+  url: "https://github.com/ulissesflores/eleicao-2026-escada-de-formulacao"
+  license:
+    - Apache-2.0
+    - CC-BY-4.0
+keywords:
+  - eleições 2026
+  - elections
+  - Brazil
+  - TSE
+  - Resolução 23.755/2026
+  - large language models
+  - AI assistants
+  - chatbots
+  - election integrity
+  - content coding
+  - reproducibility
+  - provenance
+references:
+  - type: report
+    authors:
+      - name: "Instituto de Tecnologia e Sociedade do Rio (ITS Rio)"
+    title: "Boca de IA: Como as IAs recomendam voto nas eleições de 2026? (1ª rodada)"
+    year: 2026
+    url: "https://itsrio.org/wp-content/uploads/2017/01/Boca-de-IA.pdf"
+  - type: report
+    authors:
+      - name: "Instituto de Tecnologia e Sociedade do Rio (ITS Rio)"
+    title: "Boca de IA — 2ª rodada de análises (maio de 2026)"
+    year: 2026
+    url: "https://www.bocadeia.com.br/_files/ugd/6dff39_95b3073654734a529db561c79e66516e.pdf"
+  - type: report
+    authors:
+      - name: "Instituto de Tecnologia e Sociedade do Rio (ITS Rio)"
+    title: "Boca de IA — 3ª rodada de análises (junho de 2026)"
+    year: 2026
+    url: "https://www.bocadeia.com.br/_files/ugd/6dff39_c408fd0ea61d49d686bae9bf95959baf.pdf"
+  - type: report
+    authors:
+      - name: "Instituto de Tecnologia e Sociedade do Rio (ITS Rio)"
+      - name: "Ministério Público Federal (MPF)"
+    title: "Boca de IA — 4ª rodada de análises (julho de 2026), versão corrigida"
+    year: 2026
+    url: "https://www.bocadeia.com.br/_files/ugd/6dff39_dc906ae8680b4b30af8493dae8a2706b.pdf"
+  - type: report
+    authors:
+      - name: "Instituto de Tecnologia e Sociedade do Rio (ITS Rio)"
+      - name: "Ministério Público Federal (MPF)"
+    title: "Relatório Boca de IA — 5ª Edição (agosto de 2026)"
+    year: 2026
+    url: "https://www.bocadeia.com.br/_files/ugd/6dff39_e2da7ee562784c4e9c894e36a4b8564f.pdf"
+  - type: report
+    authors:
+      - name: "Observatório IA nas Eleições (Data Privacy Brasil e Aláfia Lab)"
+    title: "Ei, chat: em quem eu voto? Testando a conformidade de chatbots de IA às resoluções do TSE para eleições 2026"
+    year: 2026
+    url: "https://observatorioianaseleicoes.com.br/wp-content/uploads/2026/06/20260616_Obs-IA-chatbot-.pdf"
+  - type: report
+    authors:
+      - name: "Ekō"
+    title: "Artificial hallucinations (Brazil report)"
+    year: 2026
+    url: "https://aks3.eko.org/images/Artificial_hallucinations_Brazil_report_DESIGNED.docx_1.pdf"
+  - type: article
+    authors:
+      - name: "JOTA"
+    title: "ChatGPT, Grok e Google IA fazem ranking de melhores candidatos, e descumprem norma do TSE"
+    year: 2026
+    url: "https://www.jota.info/eleicoes/eleicoes-2026/chatgpt-grok-e-google-ia-fazem-ranking-de-melhores-candidatos-e-descumprem-norma-do-tse"

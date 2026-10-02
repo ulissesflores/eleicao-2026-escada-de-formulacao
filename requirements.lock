@@ -1,0 +1,8 @@
+# Pacotes usados na verificação selada (2026-10-02), Python 3.14.7 em macOS arm64.
+# Informativo: fora da cadeia de proveniência, e não é um `pip freeze` completo do ambiente
+# do autor — são exatamente os pacotes que a suíte de testes exige. O gate (data/checar-tabela.py),
+# o selo (make_provenance.py) e run_all.py usam só a biblioteca padrão.
+iniconfig==2.3.0
+packaging==26.2
+pluggy==1.6.0
+pytest==9.0.3
